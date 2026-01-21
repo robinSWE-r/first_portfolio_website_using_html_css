@@ -10,6 +10,9 @@
 }
 header{
     background-color: #fff8f3;
+    background: url(../images/developer.png),url(../images/header_bg.png),#fff8f3;
+    background-repeat: no-repeat;
+    background-position:top left, bottom right;
     padding-top: 50px;
 }
 nav{
@@ -49,4 +52,77 @@ nav .manu a{
     font-size: 20px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
+}
+#banner{
+
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-content{
+    max-width: 585px;
+}
+
+.banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.banner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.banner-image img{
+    max-width: 585px;
+    vertical-align: middle;
+
+}
+#about{
+    padding-top: 130px;
+}
+.about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff8f3;
+    padding: 131px 156px;
+}
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+.section-heading h2{
+   font-size: 35px;
+   margin-bottom: 30px;
+}
+.section-heading p{
+   font-size: 18px;
+   margin-bottom: 30px;
+   line-height: 30px;
+   color: #757575;
+}
+.about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+.about-info h4{
+    font-size: 20px;
+
 }
