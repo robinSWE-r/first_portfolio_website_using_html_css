@@ -12,7 +12,7 @@ header{
     background-color: #fff8f3;
     background: url(../images/developer.png),url(../images/header_bg.png),#fff8f3;
     background-repeat: no-repeat;
-    background-position:top left, bottom right;
+    background-position:23px 38px, bottom right;
     padding-top: 50px;
 }
 nav{
@@ -88,7 +88,7 @@ nav .manu a{
     vertical-align: middle;
 
 }
-#about{
+#about,#skills,#resume{
     padding-top: 130px;
 }
 .about-container{
@@ -127,10 +127,7 @@ nav .manu a{
     font-size: 20px;
 
 }
-#skills{
-    padding-top: 130px;
 
-}
 .skills-container{
     width: 71%;
     max-width: 1140px;
@@ -161,4 +158,85 @@ nav .manu a{
     color: #757575;
     line-height: 28px;
 
+}
+.resume-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+.section-title{
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+}.resume-card{
+    max-width: 511px;
+    margin-right: 47px;
+}
+.card-title{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #474747;
+}
+.card-info{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #757575;
+}
+.card-text{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+.resume-container hr{
+    margin: 30px 0;
+}
+.text-center{
+    text-align: center;
+}
+footer {
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+
+footer .footer-container {
+
+
+    display: flex;
+    gap: 116px;
+}
+
+.footer-container h2 {
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.footer-container .social {
+    max-width: 562px;
+}
+
+.footer-container .social p {
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.footer-container .icons a {
+    margin-right: 24px;
+}
+
+.footer-container form input[type="text"],
+.footer-container form textarea {
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+
+    color: #757575
 }
